@@ -36,5 +36,5 @@ jobs:
       run: pip install -r requirements.txt
     # 运行 python 脚本文件，其中的参数取 secrets 中配置的加密参数，账户名和密码
     - name: Working
-      run: python arctime_auto_sign.py ${{ secrets.home101 }} ${{ secrets.PASSWORD }}
+      run: python arctime_auto_sign.py ${{ secrets.HOME101 }} ${{ secrets.PASSWORD }}
   
